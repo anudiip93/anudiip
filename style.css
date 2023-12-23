@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-top{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.social-link i img{
+    margin-left: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.social-link i img:hover{
+    background-color: bisque;
+    border-radius: 50px;
+}
+
+.logo h3{
+    font-weight: bold;
+
+}
+
+.main-content{
+    width: 100%;
+    height: 90vh;
+    background-image: url(./image/background.png);
+    background-size: cover;
+    background-position: 70%;
+}
+#navbar-color{
+    background-color: black;
+}
+.navbar-nav{
+    margin: auto;
+}
+.nav-link{
+    margin-left: 30px;
+    font-weight: bold;
+    color: blueviolet;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.content{
+    margin-top: 150px;
+    margin-left: 60px;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+#btn1 button{
+    width: 150px;
+    height: 32px;
+    background: transparent;
+    border: 1px solid black;
+    letter-spacing: 3px;
+    font-weight: bold;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+
+#btn1 button:hover{
+    background-color:greenyellow;
+}
+
+#btn2 button{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn2 button{
+    background-color:peru;
+}
+
+#tpc{
+    box-shadow: 0 0 5px blueviolet;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+#tpc:hover{
+    transform: translatey(-10px)
+}
+
+#c1 p{
+    font-weight: bold;
+
+}
+
+#c1 h3{
+    text-align: center;
+}
+
+#btn3{
+    text-align: center;
+
+}
+#btn3 button{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid orange;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn3 button:hover{
+    background-color: lightcoral;
+}
+
+#btn4 button{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn4 button:hover{
+    background-color: purple;
+
+}
+
+#footer{
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+}
+
+#footer h1{
+    color: antiquewhite;
+    padding: 30px;
+}
+
+#footer p{
+    color: aliceblue;
+
+}
