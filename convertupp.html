@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uppercase Converter</title>
+</head>
+<body>
+  
+<html>
+<head>
+    <script>
+        function convertToUppercase() {
+            const sentence = document.getElementById('sentence').value;
+            
+            
+            const uppercaseSentence = sentence.toUpperCase();
+            
+         
+            document.getElementById('result').innerHTML = "Uppercase: " + uppercaseSentence;
+        }
+    </script>
+</head>
+<body>
+    <h2>Convert a sentence to uppercase</h2>
+    <input type="text" id="sentence" placeholder="Enter a sentence"><br><br>
+    <button onclick="convertToUppercase()">Convert to Uppercase</button>
+    <p id="result"></p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

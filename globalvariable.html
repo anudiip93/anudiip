@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable Visibility</title>
+</head>
+<body>
+<html>
+<head>
+    <script>
+        let globalVar = "I'm a global variable";
+        function demonstrateVariables() {
+            let localVar = "I'm a local variable";
+            document.getElementById('variables').innerHTML = "Global Variable: " + globalVar + "<br>" +
+                "Local Variable: " + localVar;
+            localVar = "Changed local variable";
+            document.getElementById('variableModification').innerHTML = "Local Variable After Modification: " + localVar + "<br>" +
+                "Global Variable After Attempted Modification: " + globalVar;
+        }
+    </script>
+</head>
+<body>
+    <h2>Variable Visibility: Global vs Local</h2>
+    <button onclick="demonstrateVariables()">Show Variables</button>
+    <p id="variables"></p>
+    <p id="variableModification"></p>
+</body>
+</html>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type Coercion Demo</title>
+</head>
+<body>
+
+    <head>
+        <script>
+            function demonstrateTypeCoercion() {
+             
+                let stringNumber = "10";
+                let number = 5;
+                let booleanValue = true;
+    
+               
+                let result = stringNumber + number + booleanValue;
+    
+              
+                document.getElementById('result').innerHTML = "Result: " + result + "<br>" +
+                    "Type of result: " + typeof result;
+            }
+        </script>
+    </head>
+    <body>
+        <h2>Demonstrate Type Coercion</h2>
+        <button onclick="demonstrateTypeCoercion()">Perform Operation</button>
+        <p id="result"></p>
+    </body>
+    </html>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

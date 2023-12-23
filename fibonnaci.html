@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Sequence</title>
+</head>
+<body>
+<html>
+<head>
+    <script>
+        function generateFibonacciSequence() {
+      
+            let a = 0;
+            let b = 1;
+            document.getElementById('fibonacciSequence').innerHTML = "Fibonacci Sequence: " + a + ", " + b + ", ";
+
+            for (let i = 2; i < 400; i++) {
+                let next = a + b;
+                document.getElementById('fibonacciSequence').innerHTML += next + ", ";
+                a = b;
+                b = next;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Generate Fibonacci Sequence</h2>
+    <button onclick="generateFibonacciSequence()">Generate Sequence</button>
+    <p id="fibonacciSequence"></p>
+</body>
+</html>
+</body>
+</html>

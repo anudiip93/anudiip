@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Categorization</title>
+</head>
+<body>
+    
+    <head>
+        <script>
+            function categorizeAge() {
+               
+                const age = parseInt(document.getElementById('userAge').value);          
+                let result = "";
+                if (age >= 0 && age <= 12) {
+                    result = "You are a child.";
+                } else if (age >= 13 && age <= 19) {
+                    result = "You are a teenager.";
+                } else if (age >= 20 && age <= 64) {
+                    result = "You are an adult.";
+                } else if (age >= 65) {
+                    result = "You are a senior citizen.";
+                } else {
+                    result = "Please enter a valid age.";
+                }
+                document.getElementById('ageCategory').innerHTML = result;
+            }
+        </script>
+    </head>
+    <body>
+        <h2>Age Categorization</h2>
+        <label for="userAge">Enter your age: </label>
+        <input type="text" id="userAge">
+        <button onclick="categorizeAge()">Check Age Group</button>
+        <p id="ageCategory"></p>
+    </body>
+    </html>
+    
+</body>
+</html>

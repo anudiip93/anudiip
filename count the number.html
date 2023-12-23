@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Count</title>
+</head>
+<body>
+    
+    <html>
+    <head>
+        <script>
+            function countCharacters() {
+                const sentence = document.getElementById('sentence').value;
+                const characters = sentence.replace(/\s/g, ''); 
+                const numberOfCharacters = characters.length;
+                document.getElementById('result').innerHTML = "The number of characters in the sentence is: " + numberOfCharacters;
+            }
+        </script>
+    </head>
+    <body>
+        <h2>Count the number of characters in a sentence</h2>
+        <input type="text" id="sentence" placeholder="Enter a sentence"><br><br>
+        <button onclick="countCharacters()">Count Characters</button>
+        <p id="result"></p>
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

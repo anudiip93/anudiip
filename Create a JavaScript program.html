@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic Operations</title>
+    <script>
+        function performArithmeticOperations() {
+            
+            let num1 = parseFloat(prompt("Enter the first number:"));
+            let num2 = parseFloat(prompt("Enter the second number:"));
+
+            
+            if (isNaN(num1) || isNaN(num2)) {
+                alert("Please enter valid numbers.");
+                return;
+            }
+
+           
+            let addition = num1 + num2;
+            let subtraction = num1 - num2;
+            let multiplication = num1 * num2;
+            let division = num1 / num2;
+
+            // Display the results
+            alert(
+                "Addition: " + addition + "\n" +
+                "Subtraction: " + subtraction + "\n" +
+                "Multiplication: " + multiplication + "\n" +
+                "Division: " + division.toFixed(2) 
+            );
+        }
+    </script>
+</head>
+<body>
+    <h2>Arithmetic Operations</h2>
+    <button onclick="performArithmeticOperations()">Perform Operations</button>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
