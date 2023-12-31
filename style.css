@@ -1,0 +1,110 @@
+
+
+.navbar-top {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+
+
+.main-content {
+
+  background-color: rgba(41, 82, 124);
+
+  color: white;
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-position: 70%;
+}
+
+
+.card {
+  background-color: rgba(41, 82, 124);
+  font-weight: bold;
+
+}
+
+#card {
+  background-color: rgba(41, 82, 124);
+
+}
+
+.card-body {
+
+  background-color: whitesmoke;
+  transition: 0.5s ease;
+  cursor: pointer;
+
+}
+
+
+
+#navbar-color {
+  background-color: rgba(41, 82, 124);
+
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+
+.nav-link {
+  margin-left: 30px;
+  font-weight: bold;
+  color: white;
+
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: greenyellow;
+}
+
+#footer {
+
+  background-color: whitesmoke;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+
+
+#btn2 button {
+  letter-spacing: 3px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  background-color: greenyellow;
+  background: transparent;
+  border-color: auto black;
+
+}
+
+#btn2:hover {
+  background-color: lightgreen;
+}
+
+
+
+#tpc {
+  box-shadow: 0 0 5px black;
+  cursor: pointer;
+  transition: 0.5s ease
+}
+
+.tpc:hover {
+  transform: translateY(-10px);
+}
+
+
+#c1 h3 {
+  text-align: center;
+
+
+}
